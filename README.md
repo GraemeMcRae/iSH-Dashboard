@@ -7,7 +7,7 @@ The Linux shell for iOS. https://ish.app/
 
 ## What can you do with iSH?
 
-I made a one-click dashboard using iSH. iSH's `.profile` has three commands: ssh to our Linux server, sleep 15 seconds, then exit. The Linux server `~/.batchrc` displays the dashboard, sleeps for 10 minutes then exits, causing the ssh session to drop. Rinse and repeat.
+I made a one-click dashboard using iSH. iSH's `.profile` has three commands: ssh to our Linux server, sleep 15 seconds, then exit. The Linux server `~/.bashrc` displays the dashboard, sleeps for 10 minutes then exits, causing the ssh session to drop. Rinse and repeat.
 
 The best part is how easy it is for non-technical managers to install iSH, install openssh, install their ssh keys, upload them to the server, and start using the app. It takes them about a minute. All they have to do is paste the following into the iSH shell, and give the server's login password when prompted:
 
@@ -29,7 +29,7 @@ source ~/.profile
 
 ## What is iSH-setup.txt?
 
-This file contains the remainder of the one-time setuyp for the iSH environment on the user's iPhone, as well as the final `~/.profile` that will be used for the one-click activation of the dashboard.
+This file contains the remainder of the one-time setup for the iSH environment on the user's iPhone, as well as the final `~/.profile` that will be used for the one-click activation of the dashboard.
 
 Here's an example of `manager@servername:~/iSH-setup.txt`. (I could have made it way simpler, but I want to show you the one-time commands followed by the `~/.profile` bootstrap)
 
