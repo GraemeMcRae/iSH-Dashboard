@@ -7,7 +7,7 @@ The Linux shell for iOS. https://ish.app/
 
 ## What can you do with iSH?
 
-I made a one-click dashboard using iSH. iSH's `.profile` has three commands: ssh to our Linux server, sleep 15, then exit. The Linux server ~/.batchrc displays the dashboard, sleeps for 10 minutes then exits, causing the ssh session to drop. Rinse and repeat.
+I made a one-click dashboard using iSH. iSH's `.profile` has three commands: ssh to our Linux server, sleep 15 seconds, then exit. The Linux server `~/.batchrc` displays the dashboard, sleeps for 10 minutes then exits, causing the ssh session to drop. Rinse and repeat.
 
 The best part is how easy it is for non-technical managers to install iSH, install openssh, install their ssh keys, upload them to the server, and start using the app. It takes them about a minute. All they have to do is paste the following into the iSH shell, and give the server's login password when prompted:
 
